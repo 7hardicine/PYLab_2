@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PYLab_2_1", "PYLab_2_1\PYLab_2_1.pyproj", "{F8CBEE73-C49A-4D53-BE58-5212217B4119}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PYLab_2_2", "PYLab_2_2\PYLab_2_2.pyproj", "{76E7F181-F447-4F8C-806D-303BB40EAB07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CBEE73-C49A-4D53-BE58-5212217B4119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CBEE73-C49A-4D53-BE58-5212217B4119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E7F181-F447-4F8C-806D-303BB40EAB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E7F181-F447-4F8C-806D-303BB40EAB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C9D91C-501C-44A6-ACA1-79BEAB065428}
+	EndGlobalSection
+EndGlobal
