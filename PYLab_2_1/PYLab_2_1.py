@@ -1,24 +1,24 @@
 import math as m
 
-a = int(input('Input the value of a: '))
-b = int(input('Input the value of b: '))
+a = float(input('Введите значение a: '))
+b = float(input('Введите значение b: '))
 while (b < a):
-    b = int(input('The value of b cant be less than a, input b again: '))
-N = int(input('Input the value of N: ')) 
+    b = int(input('Значение b не может быть меньше значения a, повторите ввод: '))
+N = int(input('Введите значение N: ')) 
 while (N < 10):
-    N = int(input('The value of N must be over than 9, input N again: '))  
+    N = int(input('Значение N не может быть меньше 10, повторите ввод: '))  
 
 dx = (b - a) / N
-print('The value of step dx will be ', dx)
+print('Значение шага dx равно: ', dx)
 
 flag = 0
 temp = 0
-while b > a:
+while b + dx > a:
     y = 1 - m.cos(2 * a) - m.log(a)
     if temp * y < 0:
         flag += 1
     temp = y
-    print('y = ', y)
+    print('y = ', y, ' x = ', a)
     a += dx
 
-print('Y changed sign ', flag, ' times')
+print('Y поменял знак ', flag, ' раз(а)')
